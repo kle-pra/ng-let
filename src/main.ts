@@ -1,18 +1,16 @@
 import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import 'zone.js';
-import { DatatableTestComponent } from './datatable-test.component';
+import { NgbPaginationTestComponent } from './ngbpagination.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [DatatableTestComponent],
+  imports: [NgbPaginationTestComponent],
   template: 
   `
-   Test for datatable and let:
-
-  <app-datatable-test/>
-
+   Test for let:
+  <app-ngb-test/>
   `,
 })
 export class App {
